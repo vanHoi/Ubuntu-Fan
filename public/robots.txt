@@ -1,0 +1,6 @@
+User-agent: *
+Disallow:
+<meta name="robots" content="index,follow">
+<meta name="description" content="Ubuntu Fan, alles wat u moet en wilt weten over Ubuntu Linux, speciaal voor beginners! Deze website gaat over Ubuntu. Voor iedereen die meer te weten wilt komen over dit gratis, veilige en leuke besturingssysteem (OS)." />
+<meta name="keywords" content="Ubuntu, installatie, veilig, snel, OS, besturingssysteem, Linux, Mint, installeren, upgraden, aanpassen, Unity, beginner, dummies, Tux, Windows, OSX, gratis, free, windows, vervanging, vervanger, Ubuntu Fan, Ubuntu installeren, Ubuntu Tour" />
+<meta name="revisit-after" content="7 days">

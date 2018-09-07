@@ -1,0 +1,357 @@
+@charset "utf-8";
+
+/* 
+	Design by Ivo Reumkens, inspired by Ubuntu from Canonical
+	Versie 3 - 04.03.17
+*/
+
+@font-face {
+    font-family: Ubuntu;
+    src: url(../fonts/Ubuntu-R.ttf);
+    font-weight: normal;
+}
+
+@font-face {
+    font-family: Ubuntu;
+    src: url(../fonts/Ubuntu-B.ttf);
+    font-weight: bold;
+}
+
+body {
+    font-family: Ubuntu, Arial, Helvetica, sans-serif;
+    font-size: 14px;
+    color: #000;
+    background: url(../images/bg-mobile.jpg) no-repeat center center fixed #772953;
+    background-size: cover;
+    margin: 0 3% 5% 3%;
+}
+
+@media (min-width: 767px) {
+    body {
+        background: url(../images/bg.jpg) no-repeat center center fixed #772953;
+        margin-left: 36px;
+        overflow-x: hidden;
+    }
+}
+
+p {
+    margin-top: 6px;
+    margin-bottom: 10px;
+    line-height: 160%;
+}
+
+h1 {
+    font-size: 28px;
+    padding: 12px 0 4px 0;
+    margin: 0;
+    width: 100%;
+    border-bottom: solid 2px #666;
+    text-shadow: 1px 1px 2px #888;
+    font-weight: normal;
+}
+
+h2 {
+    font-size: 20px;
+    padding-top: 8px;
+    padding-bottom: 10px;
+    margin: 0;
+    font-weight: bold;
+}
+
+h3 {
+    font-size: 18px;
+    color: #3f3f3f;
+}
+
+h4 {
+    font-size: 16px;
+    color: #3f3f3f;
+}
+
+h5 {
+    font-size: 14px;
+    color: #3f3f3f;
+}
+
+h6 {
+    font-size: 16px;
+    padding-top: 12px;
+    padding-bottom: 3px;
+    margin: 0;
+    color: #772953;
+    font-weight: bold;
+}
+
+#topbar {
+    width: 100%;
+    position: fixed;
+    z-index: 2;
+    top: 0;
+    left: 0;
+    height: 24px;
+    background: linear-gradient(to bottom, #626055 0%, #403f3a 100%);
+    box-shadow: 0 -1px 6px 2px #000;
+}
+
+#topbar-ubuntufan {
+    background: url(../images/ubuntufan.png) no-repeat;
+    padding: 0;
+    float: left;
+    z-index: 3;
+    height: 24px;
+    width: 115px;
+}
+
+#topbar-menu {
+    float: right;
+    z-index: 2;
+    height: 24px;
+    width: 0;
+}
+
+#topbar-clock {
+    float: right;
+    z-index: 2;
+    height: 24px;
+    margin: 2px 5px 0 0;
+    padding: 0;
+    color: #dfdbd2;
+    font-size: 15px;
+}
+
+@media (min-width: 362px) {
+    #topbar-menu {
+        width: 229px;
+        background: url(../images/menu-rechtsboven.png) no-repeat;
+    }
+    #topbar-clock {
+        margin: 2px 35px 0 0;
+    }
+}
+
+#dashbar {
+    color: #fff;
+    width: 64px;
+    padding: 0;
+    margin: 0;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    height: 100%;
+    background-color: rgba(83, 29, 61, .4);
+    border-right: 1px #543445 solid;
+}
+
+#iconen {
+    background: url(../images/iconen.png) no-repeat;
+    float: left;
+    z-index: 2;
+    height: 678px;
+    width: 62px;
+}
+
+#iconen-pb-wrapper {
+    position: relative;
+    height: 100%;
+}
+
+#iconen-prullenbak {
+    background: url(../images/iconen-prullenbak.png) no-repeat;
+    float: left;
+    z-index: 2;
+    height: 62px;
+    width: 62px;
+    top: calc(100% - 62px);
+    position: absolute;
+}
+
+#programbar {
+    height: 31px;
+    margin-top: 40px;
+    margin-bottom: 0;
+    border-radius: 5px 5px 0 0;
+    background: linear-gradient(to bottom, rgba(89, 87, 79, 1) 0%, rgba(63, 62, 58, 1) 100%);
+    z-index: 1;
+    border: 1px solid #000;
+    border-bottom: 0;
+}
+
+@media (min-width: 767px) {
+    #programbar {
+        margin-top: 60px;
+    }
+}
+
+.navbar-inverse {
+    background: linear-gradient(to bottom, rgba(56, 55, 52, 1) 0%, rgba(84, 82, 74, 1) 100%);
+    border-left: 1px solid #000;
+    border-right: 1px solid #000;
+    border-top: 0;
+    border-bottom: 0;
+    box-shadow: inset 0 3px 4px 0 rgba(59, 58, 54, 0.7);
+    border-radius: 0;
+    margin-bottom: 0;
+    font-size: 16px;
+    margin-right: -15px;
+    margin-left: -15px;
+}
+
+.navbar-inverse .navbar-nav li > a {
+    color: #fff;
+}
+
+.navbar-inverse .navbar-nav > li > a:hover {
+    color: #dd3a21;
+}
+
+.dropdown-menu > li > a {
+    color: #333 !important;
+}
+
+@media (min-width: 767px) {
+    .navbar-inverse {
+        margin-right: 16px;
+        margin-left: 16px;
+    }
+}
+
+#barname {
+    background: url(../images/name.png) no-repeat;
+    float: left;
+    z-index: 97;
+    height: 30px;
+    width: 90px;
+}
+
+#barbuttons {
+    background: url(../images/buttons.png) no-repeat;
+    float: left;
+    z-index: 97;
+    height: 30px;
+    width: 65px;
+}
+
+.container-uf {
+    background: #fff;
+    border-left: 1px solid #000;
+    border-right: 1px solid #000;
+    overflow: hidden;
+    padding: 0 0 3% 0;
+}
+
+@media (min-width: 767px) {
+    .minderbreed {
+        margin: 0 31px 0 31px;
+    }
+}
+
+aside {
+    text-align: center;
+    font-size: 12px;
+    font-style: italic;
+
+}
+
+.aside-border {
+    border-top: 1px solid #e2e2e2;
+    margin: 5% 0 2% 0;
+}
+
+@media (min-width: 767px) {
+    .aside-border {
+        border-top: 0;
+        border-left: 1px solid #e2e2e2;
+        margin: 5% 0 5% 0;
+    }
+}
+
+footer {
+    background-color: #210a1a;
+    color: #fff;
+    border-radius: 0 0 4px 4px;
+    border: 1px solid #000;
+    padding: 3%;
+}
+
+footer a {
+    color: #a9363b;
+}
+
+footer a:hover {
+    color: #69F;
+}
+
+footer a:active {
+    color: #a6c4ff;
+}
+
+.left {
+    float: left;
+}
+
+.right {
+    float: right;
+}
+
+/* Back-to-top button style start */
+
+.cd-top {
+    display: inline-block;
+    height: 40px;
+    width: 40px;
+    position: fixed;
+    bottom: 40px;
+    right: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.05);
+    /* image replacement properties */
+    overflow: hidden;
+    text-indent: 100%;
+    white-space: nowrap;
+    background: rgba(232, 98, 86, 0.8) url(../images/cd-top-arrow.svg) no-repeat center 50%;
+    visibility: hidden;
+    opacity: 0;
+    -webkit-transition: opacity .3s 0s, visibility 0s .3s;
+    -moz-transition: opacity .3s 0s, visibility 0s .3s;
+    transition: opacity .3s 0s, visibility 0s .3s;
+}
+
+.cd-top.cd-is-visible, .cd-top.cd-fade-out, .no-touch .cd-top:hover {
+    -webkit-transition: opacity .3s 0s, visibility 0s 0s;
+    -moz-transition: opacity .3s 0s, visibility 0s 0s;
+    transition: opacity .3s 0s, visibility 0s 0s;
+}
+
+.cd-top.cd-is-visible {
+    /* the button becomes visible */
+    visibility: visible;
+    opacity: 1;
+}
+
+.cd-top.cd-fade-out {
+    /* if the user keeps scrolling down, the button is out of focus and becomes less visible */
+    opacity: .5;
+}
+
+.no-touch .cd-top:hover {
+    background-color: #e86256;
+    opacity: 1;
+}
+
+@media only screen and (min-width: 767px) {
+    .cd-top {
+        right: 20px;
+        bottom: 20px;
+    }
+}
+
+@media only screen and (min-width: 1023px) {
+    .cd-top {
+        height: 60px;
+        width: 60px;
+        right: 30px;
+        bottom: 30px;
+    }
+}
+
+/* Back-to-top button style end */
