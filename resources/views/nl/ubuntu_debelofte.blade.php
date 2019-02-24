@@ -49,8 +49,6 @@
     <p>De enige uitzondering die we op dit moment maken is voor sommige "drivers" waarvan de broncode niet publiekelijk
         beschikbaar is. Deze zijn echter wel nodig om van de computer gebruik te kunnen maken.</p>
 
-    @include('includes.ad')
-
     <h6>Vrije software</h6>
 
     <img src="/images/opensourcelogo.png" alt="Open Source Logo" style="float:left;"/>

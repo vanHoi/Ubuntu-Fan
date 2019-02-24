@@ -11,8 +11,6 @@
 
 <p>Naast alleen problemen, is er ook plek voor gezelligheid, neem dus zeker eens een kijkje!</p>
 
-@include('includes.ad')
-
 <p align="center"><a href="http://forum.ubuntu-nl.org/" target="_blank"><img src="../images/forum.png" height="200" width="200" alt="Klik om naar het Ubuntu Forum te gaan!" /></a></p>
 
 @stop

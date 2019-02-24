@@ -28,8 +28,6 @@
     <p style="text-align:center;"><img src="/images/whatisubuntu.png" alt="Wat is Ubuntu?" width="280" height="200"/>
     </p>
 
-    @include('includes.ad')
-
     <h6>Versienummers</h6>
     <p>De versienummers van Ubuntu zijn gebaseerd op de datum waarop die versie uitkomt. Het bestaat uit het jaar en de
         maand van uitgifte en het zegt dus niets over de werkelijke versie van de software.

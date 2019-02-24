@@ -22,20 +22,13 @@
         bent u eenmaal ermee begonnen, dan went het vanzelf. Maar ook als u nog nooit met een computer heeft gewerkt, is
         Ubuntu een goede keuze.</p>
 
-    @include("includes.ad")
-
-    <img src="/images/1610.jpg" alt="Versie 16.10" class="img-responsive img-rounded right"
+    <img src="/images/1810.jpg" alt="Versie 18.10" class="img-responsive img-rounded right"
          style="max-width: 325px; margin-left: 15px;">
 
-    <p>Deze site gaat voornamelijk over Ubuntu 16.04, de versie die ik ook aanraad om te gebruiken, omdat deze langer
+    <p>Deze site gaat voornamelijk over Ubuntu 18.04, de versie die ik ook aanraad om te gebruiken, omdat deze langer
         updates krijgt. Mocht u er echter toch voor kiezen een nieuwere versie te gebruiken; bijna alles op deze site is
         ook van toepassing op de nieuwste versie, de meeste verschillen zitten namelijk 'onder de motorkap'. Meer weten?
-        Kijk dan eens <a href="/ubuntu/denaam" target="_self">hier</a>!<br>
-        Rond 26 april komt de nieuwe lang ondersteunde versie (LTS) van Ubuntu weer uit, versie 18.04 met codenaam
-        Bionic Beaver. Wanneer deze uitkomt zal ik de website weer bijwerken naar de nieuwste versie.</p>
-
-    <p style="clear: both; font-style: italic; float: right; font-size: 10px; padding-right: 10px;">Afbeelding van <a
-                href="https://itsfoss.com/ubuntu-16-10-codename/" target="_blank">itsfoss.com</a></p>
+        Kijk dan eens <a href="/ubuntu/denaam" target="_self">hier</a>!<br></p>
 
     <div class="clearfix"></div>
 

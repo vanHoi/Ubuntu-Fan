@@ -35,8 +35,6 @@
 
 <p>Upgrade u vanuit een andere versie? Herhaal de bovenste stappenlijst dan, totdat u uiteindelijk bij versie 16.04 uitkomt. Ubuntu kan maar per versie (of LTS versie) upgraden.</p>
 
-@include('includes.ad')
-
 <br><br>
 <img src="../images/upgraden_trusty_naar_xenial.jpg" alt="Upgraden" /><br />
 <p style="font-size:9px; text-align:center; padding:0px; margin:0px;">

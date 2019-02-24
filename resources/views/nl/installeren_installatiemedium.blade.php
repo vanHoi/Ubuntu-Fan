@@ -44,8 +44,6 @@
     </a>
     <p>Selecteer 'Schrijf in ISO modus' en druk op OK.</p><br/>
 
-    @include('includes.ad')
-
     <a class="fancybox" href="/images/nl/installatiemedium/5.png" data-fancybox-group="gallery thumb button"
        title="Bestig dat de USB stick mag worden gewist door op OK te klikken.">
         <img src="/images/nl/installatiemedium/5.png" class="img-responsive" title="Ubuntu"/>

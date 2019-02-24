@@ -40,8 +40,6 @@
     <p>Nautilus, hiermee bladert u door uw bestanden.</p><br/>
     </a>
 
-    @include('includes.ad')
-
     <a class="fancybox" href="/images/nl/rondleiding/5.png" data-fancybox-group="gallery thumb button"
        title="Firefox, de internetbrowser waarmee u op het internet browst. U kunt echter ook kiezen voor bijvoorbeeld Chrome.">
         <img src="/images/nl/rondleiding/5.png" class="img-responsive" title="Firefox, de internetbrowser"/>
@@ -81,8 +79,6 @@
         <img src="/images/nl/rondleiding/10.png" class="img-responsive" title="Uiterlijk"/>
     </a>
     <p>Uiterlijk, hier kunt u een aantal visuele instellingen aanpassen, waaronder uw achtergrond.</p><br/>
-
-    @include('includes.ad')
 
     <a class="fancybox" href="/images/nl/rondleiding/11.png" data-fancybox-group="gallery thumb button"
        title="LibreOffice, de tekstverwerker.">

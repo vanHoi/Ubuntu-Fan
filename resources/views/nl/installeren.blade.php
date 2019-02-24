@@ -22,7 +22,7 @@
         PAE-kernel. In de praktijk werkt de 64 bits versie tegenwoordig beter, deze werkt ook gewoon op systemen met
         minder dan 4GB aan geheugen.</p>
 
-    <p><strong>﻿2. De oudere LTS-versie (16.04) of de nieuwste gewone versie (bijvoorbeeld 16.10)?</strong></p>
+    <p><strong>﻿2. De oudere LTS-versie (18.04) of de nieuwste gewone versie (bijvoorbeeld 18.10)?</strong></p>
 
     <p>In april 2016 is 16.04 Xenial Xerus verschenen. Dat is een zogeheten LTS-versie, als u meer wilt weten over LTS
         versies, verwijs ik u <a href="/ubuntu/denaam" target="_self">hierheen</a>. De nieuwere Ubuntu versie, bijvoorbeeld

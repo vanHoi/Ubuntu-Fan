@@ -35,8 +35,6 @@
         kunt u
         Spotify ook gewoon vinden in de dash, en updates worden in de toekomst automatisch geïnstalleerd!</p>
 
-    @include('includes.ad')
-
     <h6>Steam</h6>
     <p>Als je wel eens games speelt heb je vast ook gehoord van Steam, of misschien zelfs wel SteamOS, wat een Linux
         distributie is! Om Steam de eerste keer te starten moet je naar <a href="http://store.steampowered.com/about/"

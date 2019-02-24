@@ -21,3 +21,22 @@
 <meta name="description" content="Ubuntu Fan, alles wat u moet en wilt weten over Ubuntu Linux, speciaal voor beginners! Deze website gaat over Ubuntu. Voor iedereen die meer te weten wilt komen over dit gratis, veilige en leuke besturingssysteem (OS)." />
 <meta name="keywords" content="Ubuntu, installatie, veilig, snel, OS, besturingssysteem, Linux, Mint, installeren, upgraden, aanpassen, Unity, beginner, dummies, Tux, Windows, OSX, gratis, free, windows, vervanging, vervanger, Ubuntu Fan, Ubuntu installeren, Ubuntu Tour" />
 <meta name="revisit-after" content="7 days">
+
+<!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-38793590-1"></script>
+<script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+
+    gtag('config', 'UA-38793590-1');
+</script>
+
+<!-- Google Adsense -->
+<script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+<script>
+    (adsbygoogle = window.adsbygoogle || []).push({
+        google_ad_client: "ca-pub-7525147214420876",
+        enable_page_level_ads: true
+    });
+</script>

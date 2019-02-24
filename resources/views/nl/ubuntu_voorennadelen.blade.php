@@ -29,8 +29,6 @@
     </li>
 </ul>
 
-@include('includes.ad')
-
 <h3>Nadelen</h3>
 <ul>
     <li>Ubuntu kan standaard niet met .exe overweg; dat wil zeggen dat u met Ubuntu standaard geen Windows programma's

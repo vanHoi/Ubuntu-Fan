@@ -28,8 +28,6 @@
     <p>Linux heeft ook een eigen mascotte, het is een pinguin en men noemt hem Tux. Een plaatje van Tux ziet u
         hiernaast.</p>
 
-    @include('includes.ad')
-
     <br><h6>Maar ik zie ook wel eens GNU/Linux staan, waarvoor is dat?</h6>
 
     <p>Eigenlijk is het hetzelfde, alleen sommige mensen noemen Linux liever zo. Waarom zult u u afvragen, dat komt

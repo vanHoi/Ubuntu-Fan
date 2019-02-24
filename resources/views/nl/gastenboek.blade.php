@@ -8,6 +8,6 @@
 	<p>Als u een op- of aanmerking heeft over de site, dan kunt u deze in het gastenboek plaatsen. Alvast bedankt, ik
         waardeer reacties altijd enorm!</p>
     <br>
-    <iframe src="https://ubuntufan.org/gastenboek_data/gbook.php" height="500px" width="100%" ></iframe>
+    <p>Sorry, het gastenboek is tijdelijk uitgeschakeld! Kom later nog eens terug.</p>
 
 @stop

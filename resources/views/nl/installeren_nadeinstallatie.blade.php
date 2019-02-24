@@ -43,8 +43,6 @@
     <p>Installeren voltooid! U kunt eventueel nog wat leuke programma's uitzoeken en installeren, of het venster
         sluiten.</p><br/>
 
-    @include('includes.ad')
-
     <a class="fancybox" href="/images/nl/nadeinstallatie/6.png" data-fancybox-group="gallery thumb button"
        title="Verwijder icoontjes door er met rechts op te klikken.">
         <img src="/images/nl/nadeinstallatie/6.png" class="img-responsive" title="Ubuntu"/>
@@ -69,8 +67,6 @@
         <img src="/images/nl/nadeinstallatie/9.png" class="img-responsive" title="Ubuntu"/>
     </a>
     <p>Vervolgens zullen alle missende taalpakketten worden gedownload en geïnstalleerd.</p><br/>
-
-    @include('includes.ad')
 
     <a class="fancybox" href="/images/nl/nadeinstallatie/10.png" data-fancybox-group="gallery thumb button"
        title="Nu gaan we eventueel missen drivers installeren, typ hiervoor 'extra stuurprogrammas' in de dash en druk op enter.">

@@ -49,8 +49,6 @@
     </a>
     <p>Ubuntu controleert zichzelf op fouten.</p><br/>
 
-    @include('includes.ad')
-
     <a class="fancybox" href="/images/nl/opstarten/5.jpg" data-fancybox-group="gallery thumb button"
        title="Hij is klaar, in dit geval zijn er geen fouten gevonden en kunnen we verder. Wel fouten? Downlooad dan het bestand opnieuw en maak de USB opnieuw aan. Druk op ENTER om de pc te herstarten.">
         <img src="/images/nl/opstarten/5.jpg" class="img-responsive" title="Ubuntu"/>
