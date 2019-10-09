@@ -16,11 +16,6 @@ if (env('APP_ENV') === 'production') {
 	URL::forceScheme('https');
 }
 
-// Default
-Route::get('/laravel', function () {
-    return view('welcome');
-});
-
 Route::get('/', function () { return view('nl.index'); });
 
 // Ubuntu
