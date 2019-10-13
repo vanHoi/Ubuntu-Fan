@@ -33,7 +33,7 @@ class GuestbookController extends BaseController
         ]);
         $show = Guestbook::create($validatedData);
 
-        return redirect('/gastenboek')->with('success', 'Uw vermelding is succesvol toegevoegd!');//->with('entries', $this->getEntries());
+        return redirect('/gastenboek')->with('success', 'Uw vermelding is succesvol toegevoegd!');
     }
 
     /**
@@ -43,6 +43,6 @@ class GuestbookController extends BaseController
      */
     public function getEntries()
     {
-        return Guestbook::select('name', 'message', 'created_at')->orderBy('created_at')->get();
+        return Guestbook::select('name', 'message', 'created_at')->orderBy('created_at', 'DESC')->get();
     }
 }

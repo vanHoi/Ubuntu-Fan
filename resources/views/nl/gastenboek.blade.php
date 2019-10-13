@@ -1,4 +1,3 @@
-<?php use App\Guestbook; ?>
 @extends('master')
 @section('head')
     <title>Ubuntu Fan - Gastenboek</title>
