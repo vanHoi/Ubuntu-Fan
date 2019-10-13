@@ -1,6 +1,6 @@
 @charset "utf-8";
 
-/* 
+/*
 	Design by Ivo Reumkens, inspired by Ubuntu from Canonical
 	Versie 3 - 04.03.17
 */
@@ -250,7 +250,6 @@ aside {
     text-align: center;
     font-size: 12px;
     font-style: italic;
-
 }
 
 .aside-border {
@@ -292,6 +291,21 @@ footer a:active {
 
 .right {
     float: right;
+}
+
+.top-spacer {
+    padding-top: 10px;
+    margin-top: 10px;
+}
+
+.bottom-spacer {
+    padding-bottom: 10px;
+    margin-bottom: 10px;
+}
+
+.spacer {
+    padding: 10px;
+    margin: 10px;
 }
 
 /* Back-to-top button style start */

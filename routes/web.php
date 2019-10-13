@@ -48,7 +48,8 @@ Route::get('/firefox/adresbalk', function () { return view('nl.firefox_adresbalk
 Route::get('/linux', function () { return view('nl.linux'); });
 
 // Gastenboek
-Route::get('/gastenboek', function () { return view('nl.gastenboek'); });
+Route::get('/gastenboek', 'GuestbookController@index');
+Route::resource('guestbook', 'GuestbookController');
 
 // Forum
 Route::get('/forum', function () { return view('nl.forum'); });
