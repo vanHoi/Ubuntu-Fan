@@ -29,7 +29,8 @@ class GuestbookController extends BaseController
     {
         $validatedData = $request->validate([
             'name' => 'required|max:100',
-            'message' => 'required'
+            'message' => 'required',
+            'g-recaptcha-response' => 'required|captcha'
         ]);
         $show = Guestbook::create($validatedData);
 

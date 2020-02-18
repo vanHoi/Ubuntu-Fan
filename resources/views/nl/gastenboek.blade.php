@@ -1,6 +1,7 @@
 @extends('master')
 @section('head')
     <title>Ubuntu Fan - Gastenboek</title>
+    {!! NoCaptcha::renderJs() !!}
 @stop
 @section('content')
     <h1 class="bottom-spacer">Gastenboek</h1>
@@ -22,6 +23,10 @@
             <label for="message">Bericht</label>
             <p class="help-block">Witregels en opmaak gaan verloren.</p>
             <textarea class="form-control" rows="4" id="message" name="message" placeholder="Bericht..." required></textarea>
+        </div>
+        <div class="form-group">
+            <label for="captcha">Captcha</label>
+            {!! app('captcha')->display() !!}
         </div>
         <button type="submit" class="btn btn-default">Toevoegen</button>
     </form>
