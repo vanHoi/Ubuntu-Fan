@@ -10,9 +10,9 @@
         ik een lijstje samengesteld van veelgebruikte programma's die standaard helaas niet te downloaden zijn via het
         softwarecentrum!</p>
 
-    <img src="/images/wine.png" class="right" style="width: auto;" height="200"/>
+    <img src="/images/wine.png" class="right" style="width: auto;" height="200" alt="Wine HQ Logo"/>
     <h6>Window's programma's</h6>
-    <p>Window's programma's, bestanden die eindigen op '.exe' werken standaard niet onder Ubuntu. Gelukkig is er
+    <p class="clearfix">Window's programma's, bestanden die eindigen op '.exe' werken standaard niet onder Ubuntu. Gelukkig is er
         software
         waarmee veel programma's toch werken. Deze software heet Wine, en wordt gemaakt, onderhouden en constant
         verbeterd
@@ -24,44 +24,47 @@
         openen
         met Wine. Met een beetje geluk werkt het programma dan wel!</p>
 
-    <img src="/images/spotify.png" class="left" style="width: auto;" height="150"/>
+    <img src="/images/spotify.png" class="left" height="150" alt="Spotify Logo"/>
     <h6>Spotify</h6>
-    <p>Spotify kan niet zomaar worden gevonden in het softwarecentrum, maar het werkt gelukkig wel onder Ubuntu! U moet
-        echter
-        een aantal stappen volgen, die staan beschreven op de website van Spotify. Open een terminalvenster via de dash,
-        en
-        voer vervolgens de stappen uit die <a
-            href="https://www.spotify.com/nl/download/linux/" target="_blank">hier staan beschreven</a>. Vervolgens
-        kunt u
-        Spotify ook gewoon vinden in de dash, en updates worden in de toekomst automatisch geïnstalleerd!</p>
-
-    <h6>Steam</h6>
-    <p>Als je wel eens games speelt heb je vast ook gehoord van Steam, of misschien zelfs wel SteamOS, wat een Linux
-        distributie is! Om Steam de eerste keer te starten moet je naar <a href="http://store.steampowered.com/about/"
-                                                                           target="_blank">de website van Steam gaan</a>
-        en
-        daar het installatiebestand downloaden. Klik erop, en installeer het via het softwarecentrum. Als je vervolgens
-        Steam
-        uitvoert downloadt het programma zelf de rest van de benodigdheden, en updaten gaat voortaan ook automatisch!
+    <p class="clearfix">
+        Spotify kan tegenwoordig gewoon gevonden worden in het softwarecentrum. Zo installeert je het makkelijk en wordt
+        het voortaan automatisch geupdatet!
     </p>
 
-    <img src="/images/chrome.png" class="right" style="width: auto;" height="150"/>
+    <h6>Steam</h6>
+    <p class="clearfix">
+        Als je wel eens games speelt heb je vast ook gehoord van Steam, of misschien zelfs wel SteamOS, wat een Linux
+        distributie is! Om Steam de eerste keer te starten moet je naar
+        <a href="http://store.steampowered.com/about/" target="_blank">de website van Steam gaan</a> en
+        daar het installatiebestand downloaden. Klik erop, en installeer het via het softwarecentrum. Als je vervolgens
+        Steam uitvoert downloadt het programma zelf de rest van de benodigdheden, en updaten gaat voortaan ook
+        automatisch!
+    </p>
+
+    <img src="/images/chrome.png" class="right" height="150" alt="Google Chrome Logo"/>
     <h6>Google Chrome</h6>
-    <p>Een alternatieve browser voor Firefox, gemaakt door Google. U kunt het <a
-            href="https://www.google.com/chrome/browser/desktop/index.html">/a> hier downloaden</a>, selecteer .deb
-        voo
-        Debian/Ubuntu.</p>
+    <p class="clearfix">
+        Een alternatieve browser voor Firefox, gemaakt door Google. U kunt het
+        <a href="https://www.google.com/chrome/browser/desktop/index.html">hier downloaden</a>, selecteer het .deb
+        formaat voor Ubuntu.
+    </p>
 
     <h6>Google Earth</h6>
-    <p>Bekijk de hele wereld, de maan en de planeet Mars vanuit je luie stoel! <a
-            href="https://www.google.nl/earth/download/ge/agree.html">Hier te downloaden.</a><br/>
+    <p class="clearfix">
+        Bekijk de hele wereld, de maan en de planeet Mars vanuit je luie stoel!
+        <a href="https://www.google.nl/earth/download/ge/agree.html">Hier te downloaden.</a><br/>
         Zo te installeren: Open de map waar u het bestand naar toe gedownload heeft. Klik met de rechtermuisknop op
         GoogleEarthLinux.bin. Kies voor 'Met andere toepassing openen...'. Druk op het pijlte bij 'Gebruik een
         aangepaste
         opdracht'. Typ 'sh' en druk op 'OK'. Tip: Gebruik 'gksudo sh' in plaats van 'sh' om Google Earth voor meerdere
-        gebruikers te installeren.</p>
+        gebruikers te installeren.
+    </p>
 
     <h6>Tips zijn welkom!</h6>
-    <p>Mis je nog software, of weet je zelf nog een handig programma? Zet een reactie in het <a href="gastenboek.php">gastenboek!</a>
+    <p class="clearfix">
+        Mis je nog software, of weet je zelf nog een handig programma? Zet een reactie in het
+        <a href="/gastenboek">gastenboek!</a><br>
+        Ook kun je eens in deze
+        <a href="https://flathub.org/home" target="_blank">Flathub store</a> kijken (Engels).
     </p>
 @stop

@@ -59,24 +59,27 @@
                             <li><a href="/firefox/adresbalk">Adresbalk</a></li>
                         </ul>
                     </li>
-                    {{--<li><a href="/aanpassen/">Aanpassen</a></li>--}}
+                    <li><a href="/aanpassen">Aanpassen</a></li>
                     <li><a href="/linux">Linux</a></li>
-                    {{--
-                     <li><a href="/canonical">Alternatieven</a>
-                        <ul>
-                          <li><a href="/canonical/canonical">Canonical</a>
-                          <li><a href="/canonical/ubuntu">Ubuntu</a></li>
-                          <li><a href="/canonical/kubuntu">Kubuntu</a></li>
-                          <li><a href="/canonical/lubuntu">Lubuntu</a></li>
-                          <li><a href="/canonical/xubuntu">Xubuntu</a></li>
-                          <li><a href="/canonical/edubuntu">Edubuntu</a></li>
-                          <li><a href="/canonical/ubuntukylin">Ubuntu Kylin</a></li>
-                          <li><a href="/canonical/ubuntustudio">Ubuntu Studio</a></li>
-                          <li><a href="/canonical/mythbuntu">Mythbuntu</a></li>
+                    <li class="dropdown">
+                        <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button"
+                           aria-haspopup="true"
+                           aria-expanded="false">Alternatieven <span class="caret"></span></a>
+                        <ul class="dropdown-menu">
+                            <li><a href="/alternatieven/canonical">Canonical</a>
+                            <li role="separator" class="divider"></li>
+                            <li><a href="/alternatieven/kubuntu">Kubuntu</a></li>
+                            <li><a href="/alternatieven/lubuntu">Lubuntu</a></li>
+                            <li><a href="/alternatieven/xubuntu">Xubuntu</a></li>
+                            <li><a href="/alternatieven/edubuntu">Edubuntu</a></li>
+                            <li><a href="/alternatieven/ubuntustudio">Ubuntu Studio</a></li>
+                            <li><a href="/alternatieven/ubuntukylin">Ubuntu Kylin</a></li>
+                            <li role="separator" class="divider"></li>
+                            <li><a href="/alternatieven/linuxmint">Linux Mint</a></li>
+                            <li><a href="/alternatieven/elementaryos">Elementary OS</a></li>
                         </ul>
-                     </li>
-                     <li><a href="/launchpad">Launchpad</a></li>
-                     --}}
+                    </li>
+                    {{-- <li><a href="/launchpad">Launchpad</a></li> --}}
                     <li><a href="/gastenboek">Gastenboek</a></li>
                     <li><a href="/forum">Forum</a></li>
 

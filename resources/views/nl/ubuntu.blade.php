@@ -22,7 +22,7 @@
     <br>
 
     <div class="col-xs-12">
-        <img src="/images/logos/ubuntu.png" alt="Het logo van Ubuntu" style="max-width: 450px;" class="img-responsive center-block">
+        <img src="/images/alternatieven/ubuntu.png" alt="Het logo van Ubuntu" style="max-width: 450px;" class="img-responsive center-block">
     </div>
 
 @stop

@@ -44,8 +44,23 @@ Route::get('/firefox/addons', function () { return view('nl.firefox_addons'); })
 Route::get('/firefox/thema', function () { return view('nl.firefox_thema'); });
 Route::get('/firefox/adresbalk', function () { return view('nl.firefox_adresbalk'); });
 
+// Aanpassen
+Route::get('/aanpassen', function () { return view('nl.aanpassen.aanpassen'); });
+
 // Linux
 Route::get('/linux', function () { return view('nl.linux'); });
+
+// Alternatieven
+Route::get('/alternatieven/canonical', function () { return view('nl.alternatieven.canonical'); });
+Route::get('/alternatieven/kubuntu', function () { return view('nl.alternatieven.kubuntu'); });
+Route::get('/alternatieven/lubuntu', function () { return view('nl.alternatieven.lubuntu'); });
+Route::get('/alternatieven/xubuntu', function () { return view('nl.alternatieven.xubuntu'); });
+Route::get('/alternatieven/edubuntu', function () { return view('nl.alternatieven.edubuntu'); });
+Route::get('/alternatieven/ubuntustudio', function () { return view('nl.alternatieven.ubuntustudio'); });
+Route::get('/alternatieven/mythbuntu', function () { return view('nl.alternatieven.mythbuntu'); });
+Route::get('/alternatieven/ubuntukylin', function () { return view('nl.alternatieven.ubuntukylin'); });
+Route::get('/alternatieven/linuxmint', function () { return view('nl.alternatieven.linuxmint'); });
+Route::get('/alternatieven/elementaryos', function () { return view('nl.alternatieven.elementaryos'); });
 
 // Gastenboek
 Route::get('/gastenboek', 'GuestbookController@index');
