@@ -2,7 +2,7 @@
 
 /*
 	Design by Ivo Reumkens, inspired by Ubuntu from Canonical
-	Versie 3 - 04.03.17
+	Versie 4 - 24.02.20
 */
 
 @font-face {
@@ -206,10 +206,22 @@ h6 {
 }
 
 .dropdown-menu > li > a {
-    color: #333 !important;
+    color: #f0f0f0 !important;
+}
+
+.navbar-inverse .navbar-brand {
+    color: #fff;
 }
 
 @media (min-width: 767px) {
+    .navbar-inverse .navbar-brand {
+        color: #9d9d9d;
+    }
+
+    .dropdown-menu > li > a {
+        color: #333 !important;
+    }
+
     .navbar-inverse {
         margin-right: 16px;
         margin-left: 16px;
