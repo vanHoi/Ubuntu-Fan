@@ -11,7 +11,7 @@
         wegwijs wordt in Ubuntu. Op de site maak ik veel gebruik van afbeeldingen, op veel van deze afbeeldingen kunt u
         klikken om ze groter te maken. Ik wens u veel plezier toe met Ubuntu!</p>
 
-    <img src="/images/ubuntulogo.png" alt="Ubuntu" class="img-responsive center-block rounded-corners"
+    <img src="/images/ubuntulogo.png" alt="Ubuntu Versie 18.04" class="img-responsive center-block rounded-corners"
          style="max-width: 300px;">
 
     <h6>Ubuntu</h6>
@@ -25,10 +25,10 @@
     <img src="/images/1810.jpg" alt="Versie 18.10" class="img-responsive img-rounded right"
          style="max-width: 325px; margin-left: 15px;">
 
-    <p>Deze site gaat voornamelijk over Ubuntu 18.04, de versie die ik ook aanraad om te gebruiken, omdat deze langer
-        updates krijgt. Mocht u er echter toch voor kiezen een nieuwere versie te gebruiken; bijna alles op deze site is
-        ook van toepassing op de nieuwste versie, de meeste verschillen zitten namelijk 'onder de motorkap'. Meer weten?
-        Kijk dan eens <a href="/ubuntu/denaam" target="_self">hier</a>!<br></p>
+    <p>Deze site gaat voornamelijk over Ubuntu 20.04, de versie die ik ook aanraad om te gebruiken. Dit omdat deze
+        versie maar liefst 5 jaar updates krijgt. Mocht u er toch voor kiezen een nieuwere versie te gebruiken; bijna
+        alles op deze site is ook van toepassing op de nieuwste versie, de meeste verschillen zitten namelijk 'onder de
+        motorkap'. Meer weten? Kijk dan eens <a href="/ubuntu/denaam" target="_self">hier</a>!<br></p>
 
     <div class="clearfix"></div>
 
