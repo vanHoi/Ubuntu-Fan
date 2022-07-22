@@ -18,14 +18,4 @@
     RewriteCond %{REQUEST_FILENAME} !-d
     RewriteCond %{REQUEST_FILENAME} !-f
     RewriteRule ^ index.php [L]
-	
-	# cache images and flash content for one month
-    <FilesMatch ".(flv|gif|jpg|jpeg|png|ico|swf|js|css|pdf|txt)$">
-    Header set Cache-Control "max-age=2592000"
-    </FilesMatch>
-
-    # cache html and htm files for one week
-    <FilesMatch ".(html|htm|php)$">
-    Header set Cache-Control "max-age=604800"
-    </FilesMatch>
 </IfModule>

@@ -15,7 +15,6 @@
 
 <script type="text/javascript">
     $(document).ready(function () {
-
         $('.fancybox').fancybox({
             openEffect: 'elastic',
             openSpeed: 150,
